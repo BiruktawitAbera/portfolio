@@ -8,19 +8,19 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello there <span className="purple">Elsh  </span> here.
-            Born and raised in <span className="purple"> Addis Ababa, Ethiopia.</span>
-            <br />I'm a software engineering senior year student at Addis Ababa University.
+            Hello there <span className="purple">Biruktawit Abera </span> here.
+            
+            <br />I'm a software engineering student at Addis Ababa University.
             <br />
             <br />
             Apart from coding, what do I enjoy?
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Writing
+              <ImPointRight /> Reading Self-esteem book
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Basketball
+              <ImPointRight /> Dancing
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -28,9 +28,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "What you need to learn isn't how to make everything easy, but what to do when something is hard"{" "}
+            "You don’t need to make everything easy; instead, focus on staying consistent, as steady practice and persistence are key to mastering coding."{" "}
           </p>
-          <footer className="blockquote-footer">Silvia, 12th July, 2022</footer>
+          <footer className="blockquote-footer"> keep coding </footer>
         </blockquote>
       </Card.Body>
     </Card>

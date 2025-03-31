@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import nilestream from "../../Assets/Projects/nilestream.png";
-import pageNpen from "../../Assets/Projects/pageNpen.png";
-import shega from "../../Assets/Projects/shega.png";
-import eldelicios from "../../Assets/Projects/eldelicios.png";
+import ecommerce from "../../Assets/Projects/ecommerce.png";
+import budgetwise from "../../Assets/Projects/budgetwise.jpg";
+import crm from "../../Assets/Projects/crm.jpg";
+import foodrecipe from "../../Assets/Projects/foodrecipe.PNG";
 
 function Projects() {
   return (
@@ -21,43 +21,45 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={shega}
+              imgPath={budgetwise}
               isBlog={false}
-              title="Shega"
-              description="The biggest Ethiopian Tech News Platform"
-              demoLink="https://shega.co/"
+              title="budget-wise"
+              description="organizational finance tracking web app "
+              demoLink="https://github.com/BiruktawitAbera/Organizational_Finance_Tracking_Front_end.git"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={eldelicios}
+              imgPath={crm}
               isBlog={false}
-              title="El Delicios"
-              description="A portal for an Ethiopian restaurant based in Spain"
-              demoLink="https://xn--eldeliciosdetiopa-svb.com/"
+              title="crm"
+              description="A Human resource management system for Xcel tech campany"
+              demoLink="https://github.com/BiruktawitAbera/crm.git"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pageNpen}
+              imgPath={ecommerce}
               isBlog={false}
-              title="Pen and Page Hub"
-              description="Book reviewing tool"
-              demoLink="https://reader-book-review-webapp.herokuapp.com/home"              
+              title="E-commerce"
+              description="Online cloth shopping"
+              demoLink="https://github.com/BiruktawitAbera/Online-cloth-shopping.git"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={nilestream}
+              imgPath={foodrecipe}
               isBlog={false}
-              title="Nile Stream"
-              description="An audio streaming platform"
-              demoLink="https://nilestream.co"
+              title="UI/UX Designs"
+              description="A collection of my UI/UX designs"
+              demoLink="https://github.com/BiruktawitAbera/food-recipe-design/raw/main/Food-Recipe.pdf
+" // Replace with the actual path
             />
           </Col>
+
           
         </Row>
       </Container>

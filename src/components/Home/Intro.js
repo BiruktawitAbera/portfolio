@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,7 +18,7 @@ function Home2() {
               LET ME <span className="purple"> INTRO</span>DUCE MYSELF
             </h1>
             <p className="home-about-body">
-              I started programming in early 2019, when I joined Software
+              I started programming in early 2020, when I joined Software
               Engineering department at AAU.
               <br />
               <br />I first started with Python then worked on web development
@@ -28,24 +27,24 @@ function Home2() {
               And my favorite coding language has been
               <i>
                 <b className="purple"> Javascript </b> and I'm conversant with
-                Java, Python and, sometimes C 🤯 I know!
+                React, Python and, sometimes django 🚀!
               </i>
               <br />
               <br />
               I'm highly interested in &nbsp;
               <i>
-                <b className="purple">Machine Learning </b> and also in{" "}
-                <b className="purple">Geometry Processing</b>
+                <b className="purple">Web Development </b> and also in{" "}
+                <b className="purple">UI/UX Designing</b>
               </i>
               <br />
               <br />
-              I'm also a member of the Africa To Silicon Valley Organization
-              <b className="purple"> A2SV</b> where I
+              I worked as a Frontend Developer at 
+              <b className="purple"> Xcel Tec</b> where I
               <i>
-                <b className="purple"> Mentor</b>
+                <b className="purple"> honed my skills </b>
               </i>
-              &nbsp; and
-              <b className="purple"> Practice</b> to be a great problem solver
+              &nbsp; by
+              <b className="purple"> Practice</b>   creating engaging, responsive interfaces and collaborated on building robust web applications
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -63,7 +62,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/elshadaik"
+                  href="https://github.com/BiruktawitAbera"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -71,19 +70,10 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+          
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/pour_qua"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/elshadai-tegegn/"
+                  href="https://www.linkedin.com/in/biruktawit-abera-421632242/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -93,7 +83,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/pour_qua"
+                  href="https://www.instagram.com/biruktawit_abera/?__pwa=1#"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
